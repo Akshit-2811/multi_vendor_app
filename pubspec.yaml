@@ -1,0 +1,41 @@
+name: multi_vendor_app
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  
+  cupertino_icons: ^1.0.8
+  flutter_screenutil: ^5.9.3
+  get: ^4.6.6
+  flutter_vector_icons: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+  
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/anime/
+    - assets/icons/
+
+
